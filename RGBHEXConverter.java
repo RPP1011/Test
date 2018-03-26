@@ -23,7 +23,7 @@ class RGBToHex
 		return "#"+x+y+z;
  
 	
-}
+	}
 	
 	
 	private static String baseTenToSixteen(int value) {
@@ -47,12 +47,12 @@ class RGBToHex
 
 
 		
-if(modulusSixteen < 10) characterTwoValue = (char)(modulusSixteen + 48);
+		if(modulusSixteen < 10) characterTwoValue = (char)(modulusSixteen + 48);
 
 		else characterTwoValue = (char)(modulusSixteen + 87);
 
 		
-return "" + characterOneValue + characterTwoValue;
+		return "" + characterOneValue + characterTwoValue;
 
 	}
 
